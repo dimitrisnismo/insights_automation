@@ -29,7 +29,7 @@ def project_prophet(product, manufacturer, dftemp, value):
     return projections
 
 
-def projections(project_prophet, product, manufacturer, dftemp):
+def projections( product, manufacturer, dftemp):
     # implement projection for each revenue and amount and concatenate resuls
     # Project Amount
     proj_amounts = project_prophet(product, manufacturer, dftemp, value="Amount")
